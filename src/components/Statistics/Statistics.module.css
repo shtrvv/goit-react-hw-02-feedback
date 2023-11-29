@@ -1,0 +1,23 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-shadow: black 2px 0 3px, black 0 2px 3px, black -2px 0 3px, black 0 -2px 3px;
+}
+
+.good {
+    text-shadow: #32CD32 2px 0 3px, #32CD32 0 2px 3px, #32CD32 -2px 0 3px, #32CD32 0 -2px 3px;
+}
+
+.neut {
+    text-shadow: #FFD700 2px 0 3px, #FFD700 0 2px 3px, #FFD700 -2px 0 3px, #FFD700 0 -2px 3px;
+}
+
+.bad {
+    text-shadow: #FF4500 2px 0 3px, #FF4500 0 2px 3px, #FF4500 -2px 0 3px, #FF4500 0 -2px 3px;
+}
